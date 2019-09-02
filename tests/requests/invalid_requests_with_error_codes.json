@@ -1,0 +1,44 @@
+{
+  "invalid_shipment_request_shippingAddress_required": {
+    "shipment_request": {
+      "receivingAddress": {
+        "addressName": "7433 Victoria Ave.",
+        "state": "WI",
+        "name": "Jones"
+      },
+      "packages": [
+        {
+          "name": "Small package",
+          "weight": 1,
+          "unit": "LB"
+        }
+      ]
+    },
+    "shipment": {
+      "errorCode": "1100"
+    }
+  },
+  "invalid_shipment_request_receivingAddress_addressName_required": {
+    "shipment_request": {
+      "shippingAddress": {
+        "addressName": "7433 Victoria Ave.",
+        "state": "WI",
+        "name": "Jones"
+      },
+      "receivingAddress": {
+        "state": "WI",
+        "name": "Jones"
+      },
+      "packages": [
+        {
+          "name": "Small package",
+          "weight": 1,
+          "unit": "LB"
+        }
+      ]
+    },
+    "shipment": {
+      "errorCode": "1200"
+    }
+  }
+}
