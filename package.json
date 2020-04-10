@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./www",
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "dependencies": {
     "audit": "0.0.6",
