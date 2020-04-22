@@ -1,5 +1,5 @@
 
-This challenge has been implemented and in order to run the tests you have to run `npm test` after doing `npm install`
+The following specification are implemented and in order to tests the implementation you have to run `npm test` after doing `npm install`
 
 # Delivery System
 Goal is to implement a basic delivery system with a NodeJS backend.
